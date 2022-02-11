@@ -5,8 +5,8 @@ create table `test`(
     primary key(`id`)
 ) engine=innodb default charset=utf8mb4 comment='测试';
 #参保人员表
-drop table if exists `user`;
-create table `user`(
+drop table if exists `euser`;
+create table `euser`(
     `id` bigint not null comment '参保人员编号',
     `name` varchar(50) comment '姓名',
     `idNumber` varchar(200) comment '身份证号',
@@ -18,5 +18,5 @@ create table `user`(
     primary key(`id`)
 ) engine=innodb default charset=utf8mb4 comment='参保人员';
 
-insert into `user` (id, name, idNumber, address, account, disability, familyPlanning, poverty) values (1,'张三','120100195004010488','天津','1234567810121314151',0,0,0);
-insert into `user` (id, name, idNumber, address, account, disability, familyPlanning, poverty) values (2,'李四','120100196004010488','天津','1234567810121314555',0,0,0);
+insert into `euser` (id, name, idNumber, address, account, disability, familyPlanning, poverty) values (1,'张三','120100195004010488','天津','1234567810121314151',0,0,0);
+insert into `euser` (id, name, idNumber, address, account, disability, familyPlanning, poverty) values (2,'李四','120100196004010488','天津','1234567810121314555',0,0,0);
