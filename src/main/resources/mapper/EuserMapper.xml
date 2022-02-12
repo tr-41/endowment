@@ -7,9 +7,9 @@
     <result column="idNumber" jdbcType="VARCHAR" property="idnumber" />
     <result column="address" jdbcType="VARCHAR" property="address" />
     <result column="account" jdbcType="VARCHAR" property="account" />
-    <result column="disability" jdbcType="BIT" property="disability" />
-    <result column="familyPlanning" jdbcType="BIT" property="familyplanning" />
-    <result column="poverty" jdbcType="BIT" property="poverty" />
+    <result column="disability" jdbcType="VARCHAR" property="disability" />
+    <result column="familyPlanning" jdbcType="VARCHAR" property="familyplanning" />
+    <result column="poverty" jdbcType="VARCHAR" property="poverty" />
   </resultMap>
   <sql id="Example_Where_Clause">
     <where>
@@ -107,8 +107,8 @@
       address, account, disability, 
       familyPlanning, poverty)
     values (#{id,jdbcType=BIGINT}, #{name,jdbcType=VARCHAR}, #{idnumber,jdbcType=VARCHAR}, 
-      #{address,jdbcType=VARCHAR}, #{account,jdbcType=VARCHAR}, #{disability,jdbcType=BIT}, 
-      #{familyplanning,jdbcType=BIT}, #{poverty,jdbcType=BIT})
+      #{address,jdbcType=VARCHAR}, #{account,jdbcType=VARCHAR}, #{disability,jdbcType=VARCHAR}, 
+      #{familyplanning,jdbcType=VARCHAR}, #{poverty,jdbcType=VARCHAR})
   </insert>
   <insert id="insertSelective" parameterType="com.example.endowment.domain.Euser">
     insert into euser
@@ -155,13 +155,13 @@
         #{account,jdbcType=VARCHAR},
       </if>
       <if test="disability != null">
-        #{disability,jdbcType=BIT},
+        #{disability,jdbcType=VARCHAR},
       </if>
       <if test="familyplanning != null">
-        #{familyplanning,jdbcType=BIT},
+        #{familyplanning,jdbcType=VARCHAR},
       </if>
       <if test="poverty != null">
-        #{poverty,jdbcType=BIT},
+        #{poverty,jdbcType=VARCHAR},
       </if>
     </trim>
   </insert>
@@ -190,13 +190,13 @@
         account = #{record.account,jdbcType=VARCHAR},
       </if>
       <if test="record.disability != null">
-        disability = #{record.disability,jdbcType=BIT},
+        disability = #{record.disability,jdbcType=VARCHAR},
       </if>
       <if test="record.familyplanning != null">
-        familyPlanning = #{record.familyplanning,jdbcType=BIT},
+        familyPlanning = #{record.familyplanning,jdbcType=VARCHAR},
       </if>
       <if test="record.poverty != null">
-        poverty = #{record.poverty,jdbcType=BIT},
+        poverty = #{record.poverty,jdbcType=VARCHAR},
       </if>
     </set>
     <if test="_parameter != null">
@@ -210,9 +210,9 @@
       idNumber = #{record.idnumber,jdbcType=VARCHAR},
       address = #{record.address,jdbcType=VARCHAR},
       account = #{record.account,jdbcType=VARCHAR},
-      disability = #{record.disability,jdbcType=BIT},
-      familyPlanning = #{record.familyplanning,jdbcType=BIT},
-      poverty = #{record.poverty,jdbcType=BIT}
+      disability = #{record.disability,jdbcType=VARCHAR},
+      familyPlanning = #{record.familyplanning,jdbcType=VARCHAR},
+      poverty = #{record.poverty,jdbcType=VARCHAR}
     <if test="_parameter != null">
       <include refid="Update_By_Example_Where_Clause" />
     </if>
@@ -233,13 +233,13 @@
         account = #{account,jdbcType=VARCHAR},
       </if>
       <if test="disability != null">
-        disability = #{disability,jdbcType=BIT},
+        disability = #{disability,jdbcType=VARCHAR},
       </if>
       <if test="familyplanning != null">
-        familyPlanning = #{familyplanning,jdbcType=BIT},
+        familyPlanning = #{familyplanning,jdbcType=VARCHAR},
       </if>
       <if test="poverty != null">
-        poverty = #{poverty,jdbcType=BIT},
+        poverty = #{poverty,jdbcType=VARCHAR},
       </if>
     </set>
     where id = #{id,jdbcType=BIGINT}
@@ -250,9 +250,9 @@
       idNumber = #{idnumber,jdbcType=VARCHAR},
       address = #{address,jdbcType=VARCHAR},
       account = #{account,jdbcType=VARCHAR},
-      disability = #{disability,jdbcType=BIT},
-      familyPlanning = #{familyplanning,jdbcType=BIT},
-      poverty = #{poverty,jdbcType=BIT}
+      disability = #{disability,jdbcType=VARCHAR},
+      familyPlanning = #{familyplanning,jdbcType=VARCHAR},
+      poverty = #{poverty,jdbcType=VARCHAR}
     where id = #{id,jdbcType=BIGINT}
   </update>
 </mapper>

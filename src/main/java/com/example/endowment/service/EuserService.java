@@ -18,18 +18,23 @@ public class EuserService {
     @Resource
     private EuserMapper euserMapper;
 
-    public List<EuserResp> list(EuserReq req) {
+
+    public List<EuserResp> list() {
+        List<Euser> eusers = euserMapper.selectByExample(null);
+        List<EuserResp> euserResps = CopyUtil.copyList(eusers, EuserResp.class);
+        return euserResps;
+    }
+
+    public List<EuserResp> selectByName(EuserReq req) {
         EuserExample example = new EuserExample();
         EuserExample.Criteria criteria = example.createCriteria();
         criteria.andNameLike("%" + req.getName() + "%");
         List<Euser> eusers = euserMapper.selectByExample(example);
-
 //        List<EuserResp> list=new ArrayList<>();
 //        for(Euser euser:eusers){
 //            EuserResp euserResp = CopyUtil.copy(euser, EuserResp.class);
 //            list.add(euserResp);
 //        }
-
         List<EuserResp> euserResps = CopyUtil.copyList(eusers, EuserResp.class);
         return euserResps;
     }

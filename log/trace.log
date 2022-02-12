@@ -414,3 +414,424 @@ java.sql.SQLSyntaxErrorException: Unknown column 'version' in 'field list'
 2022-02-11 16:52:52.074 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
 2022-02-11 16:52:56.681 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
 2022-02-11 16:52:56.694 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2022-02-12 13:16:28.413 INFO  com.example.endowment.EndowmentApplicationTests   :55   [32m                  [0;39m Starting EndowmentApplicationTests using Java 13.0.2 on LAPTOP-054H6FO4 with PID 5488 (started by TR in E:\endowment)
+2022-02-12 13:16:28.423 INFO  com.example.endowment.EndowmentApplicationTests   :637  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-12 13:16:33.664 INFO  com.example.endowment.EndowmentApplicationTests   :61   [32m                  [0;39m Started EndowmentApplicationTests in 6.007 seconds (JVM running for 7.898)
+2022-02-12 13:35:12.984 INFO  com.example.endowment.EndowmentApplicationTests   :55   [32m                  [0;39m Starting EndowmentApplicationTests using Java 1.8.0_221 on LAPTOP-054H6FO4 with PID 1724 (started by TR in E:\endowment)
+2022-02-12 13:35:12.994 INFO  com.example.endowment.EndowmentApplicationTests   :637  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-12 13:35:17.255 INFO  com.example.endowment.EndowmentApplicationTests   :61   [32m                  [0;39m Started EndowmentApplicationTests in 4.981 seconds (JVM running for 6.787)
+2022-02-12 13:35:22.734 INFO  com.example.endowment.EndowmentApplication        :55   [32m                  [0;39m Starting EndowmentApplication using Java 1.8.0_221 on LAPTOP-054H6FO4 with PID 1400 (E:\endowment\target\classes started by TR in E:\endowment)
+2022-02-12 13:35:22.734 INFO  com.example.endowment.EndowmentApplication        :637  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-12 13:35:22.834 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-12 13:35:22.834 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-12 13:35:24.385 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-02-12 13:35:24.415 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-02-12 13:35:24.415 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-02-12 13:35:24.415 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-12 13:35:24.525 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-02-12 13:35:24.525 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1691 ms
+2022-02-12 13:35:25.545 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-02-12 13:35:25.575 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-02-12 13:35:25.605 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-02-12 13:35:25.625 INFO  com.example.endowment.EndowmentApplication        :61   [32m                  [0;39m Started EndowmentApplication in 3.544 seconds (JVM running for 5.072)
+2022-02-12 13:35:25.635 INFO  com.example.endowment.EndowmentApplication        :17   [32m                  [0;39m 启动成功！！
+2022-02-12 13:35:25.635 INFO  com.example.endowment.EndowmentApplication        :18   [32m                  [0;39m 地址:	http://127.0.0.1:8880
+2022-02-12 13:36:12.716 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-12 13:36:12.716 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-02-12 13:36:12.716 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2022-02-12 13:36:12.906 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2022-02-12 13:36:13.286 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2022-02-12 15:49:18.402 INFO  com.example.endowment.EndowmentApplicationTests   :55   [32m                  [0;39m Starting EndowmentApplicationTests using Java 1.8.0_221 on LAPTOP-054H6FO4 with PID 4496 (started by TR in E:\endowment)
+2022-02-12 15:49:18.402 INFO  com.example.endowment.EndowmentApplicationTests   :637  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-12 15:49:24.363 INFO  com.example.endowment.EndowmentApplicationTests   :61   [32m                  [0;39m Started EndowmentApplicationTests in 7.309 seconds (JVM running for 10.739)
+2022-02-12 15:49:33.537 INFO  com.example.endowment.EndowmentApplication        :55   [32m                  [0;39m Starting EndowmentApplication using Java 1.8.0_221 on LAPTOP-054H6FO4 with PID 8364 (E:\endowment\target\classes started by TR in E:\endowment)
+2022-02-12 15:49:33.537 INFO  com.example.endowment.EndowmentApplication        :637  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-12 15:49:33.687 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-12 15:49:33.687 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-12 15:49:36.658 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-02-12 15:49:36.678 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-02-12 15:49:36.688 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-02-12 15:49:36.688 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-12 15:49:36.838 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-02-12 15:49:36.838 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 3151 ms
+2022-02-12 15:49:38.698 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-02-12 15:49:38.738 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-02-12 15:49:38.778 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-02-12 15:49:38.818 INFO  com.example.endowment.EndowmentApplication        :61   [32m                  [0;39m Started EndowmentApplication in 7.595 seconds (JVM running for 10.113)
+2022-02-12 15:49:38.828 INFO  com.example.endowment.EndowmentApplication        :17   [32m                  [0;39m 启动成功！！
+2022-02-12 15:49:38.828 INFO  com.example.endowment.EndowmentApplication        :18   [32m                  [0;39m 地址:	http://127.0.0.1:8880
+2022-02-12 16:16:44.184 INFO  com.example.endowment.EndowmentApplicationTests   :55   [32m                  [0;39m Starting EndowmentApplicationTests using Java 1.8.0_221 on LAPTOP-054H6FO4 with PID 2120 (started by TR in E:\endowment)
+2022-02-12 16:16:44.184 INFO  com.example.endowment.EndowmentApplicationTests   :637  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-12 16:16:48.462 INFO  com.example.endowment.EndowmentApplicationTests   :61   [32m                  [0;39m Started EndowmentApplicationTests in 5.018 seconds (JVM running for 7.11)
+2022-02-12 16:16:54.017 INFO  com.example.endowment.EndowmentApplication        :55   [32m                  [0;39m Starting EndowmentApplication using Java 1.8.0_221 on LAPTOP-054H6FO4 with PID 9444 (E:\endowment\target\classes started by TR in E:\endowment)
+2022-02-12 16:16:54.017 INFO  com.example.endowment.EndowmentApplication        :637  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-12 16:16:54.107 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-12 16:16:54.107 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-12 16:16:55.877 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-02-12 16:16:55.887 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-02-12 16:16:55.897 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-02-12 16:16:55.897 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-12 16:16:56.017 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-02-12 16:16:56.017 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1910 ms
+2022-02-12 16:16:57.268 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-02-12 16:16:57.298 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-02-12 16:16:57.328 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-02-12 16:16:57.348 INFO  com.example.endowment.EndowmentApplication        :61   [32m                  [0;39m Started EndowmentApplication in 4.106 seconds (JVM running for 5.623)
+2022-02-12 16:16:57.358 INFO  com.example.endowment.EndowmentApplication        :17   [32m                  [0;39m 启动成功！！
+2022-02-12 16:16:57.358 INFO  com.example.endowment.EndowmentApplication        :18   [32m                  [0;39m 地址:	http://127.0.0.1:8880
+2022-02-12 16:21:16.966 INFO  com.example.endowment.EndowmentApplicationTests   :55   [32m                  [0;39m Starting EndowmentApplicationTests using Java 1.8.0_221 on LAPTOP-054H6FO4 with PID 3812 (started by TR in E:\endowment)
+2022-02-12 16:21:16.976 INFO  com.example.endowment.EndowmentApplicationTests   :637  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-12 16:21:21.197 INFO  com.example.endowment.EndowmentApplicationTests   :61   [32m                  [0;39m Started EndowmentApplicationTests in 4.975 seconds (JVM running for 6.948)
+2022-02-12 16:21:26.713 INFO  com.example.endowment.EndowmentApplication        :55   [32m                  [0;39m Starting EndowmentApplication using Java 1.8.0_221 on LAPTOP-054H6FO4 with PID 8572 (E:\endowment\target\classes started by TR in E:\endowment)
+2022-02-12 16:21:26.713 INFO  com.example.endowment.EndowmentApplication        :637  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-12 16:21:26.803 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-12 16:21:26.803 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-12 16:21:28.543 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-02-12 16:21:28.563 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-02-12 16:21:28.563 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-02-12 16:21:28.563 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-12 16:21:28.683 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-02-12 16:21:28.683 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1870 ms
+2022-02-12 16:21:29.833 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-02-12 16:21:29.863 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-02-12 16:21:29.893 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-02-12 16:21:29.913 INFO  com.example.endowment.EndowmentApplication        :61   [32m                  [0;39m Started EndowmentApplication in 3.935 seconds (JVM running for 5.423)
+2022-02-12 16:21:29.923 INFO  com.example.endowment.EndowmentApplication        :17   [32m                  [0;39m 启动成功！！
+2022-02-12 16:21:29.923 INFO  com.example.endowment.EndowmentApplication        :18   [32m                  [0;39m 地址:	http://127.0.0.1:8880
+2022-02-12 16:22:42.115 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-12 16:22:42.116 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-02-12 16:22:42.118 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 2 ms
+2022-02-12 16:24:06.027 INFO  com.example.endowment.EndowmentApplicationTests   :55   [32m                  [0;39m Starting EndowmentApplicationTests using Java 1.8.0_221 on LAPTOP-054H6FO4 with PID 6112 (started by TR in E:\endowment)
+2022-02-12 16:24:06.037 INFO  com.example.endowment.EndowmentApplicationTests   :637  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-12 16:24:10.458 INFO  com.example.endowment.EndowmentApplicationTests   :61   [32m                  [0;39m Started EndowmentApplicationTests in 5.246 seconds (JVM running for 7.325)
+2022-02-12 16:24:15.941 INFO  com.example.endowment.EndowmentApplication        :55   [32m                  [0;39m Starting EndowmentApplication using Java 1.8.0_221 on LAPTOP-054H6FO4 with PID 10160 (E:\endowment\target\classes started by TR in E:\endowment)
+2022-02-12 16:24:15.951 INFO  com.example.endowment.EndowmentApplication        :637  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-12 16:24:16.031 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-12 16:24:16.031 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-12 16:24:17.841 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-02-12 16:24:17.861 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-02-12 16:24:17.861 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-02-12 16:24:17.861 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-12 16:24:17.991 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-02-12 16:24:17.991 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1960 ms
+2022-02-12 16:24:19.132 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-02-12 16:24:19.162 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-02-12 16:24:19.192 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-02-12 16:24:19.212 INFO  com.example.endowment.EndowmentApplication        :61   [32m                  [0;39m Started EndowmentApplication in 3.959 seconds (JVM running for 5.613)
+2022-02-12 16:24:19.222 INFO  com.example.endowment.EndowmentApplication        :17   [32m                  [0;39m 启动成功！！
+2022-02-12 16:24:19.222 INFO  com.example.endowment.EndowmentApplication        :18   [32m                  [0;39m 地址:	http://127.0.0.1:8880
+2022-02-12 16:24:22.651 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-12 16:24:22.652 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-02-12 16:24:22.654 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 2 ms
+2022-02-12 16:24:40.966 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2022-02-12 16:24:41.251 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2022-02-12 16:29:22.827 INFO  com.example.endowment.EndowmentApplicationTests   :55   [32m                  [0;39m Starting EndowmentApplicationTests using Java 1.8.0_221 on LAPTOP-054H6FO4 with PID 1652 (started by TR in E:\endowment)
+2022-02-12 16:29:22.827 INFO  com.example.endowment.EndowmentApplicationTests   :637  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-12 16:29:27.048 INFO  com.example.endowment.EndowmentApplicationTests   :61   [32m                  [0;39m Started EndowmentApplicationTests in 4.959 seconds (JVM running for 6.846)
+2022-02-12 16:29:33.013 INFO  com.example.endowment.EndowmentApplication        :55   [32m                  [0;39m Starting EndowmentApplication using Java 1.8.0_221 on LAPTOP-054H6FO4 with PID 1400 (E:\endowment\target\classes started by TR in E:\endowment)
+2022-02-12 16:29:33.013 INFO  com.example.endowment.EndowmentApplication        :637  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-12 16:29:33.113 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-12 16:29:33.113 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-12 16:29:34.843 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-02-12 16:29:34.863 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-02-12 16:29:34.863 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-02-12 16:29:34.863 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-12 16:29:34.983 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-02-12 16:29:34.983 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1870 ms
+2022-02-12 16:29:36.114 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-02-12 16:29:36.154 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-02-12 16:29:36.174 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-02-12 16:29:36.194 INFO  com.example.endowment.EndowmentApplication        :61   [32m                  [0;39m Started EndowmentApplication in 3.891 seconds (JVM running for 5.503)
+2022-02-12 16:29:36.204 INFO  com.example.endowment.EndowmentApplication        :17   [32m                  [0;39m 启动成功！！
+2022-02-12 16:29:36.204 INFO  com.example.endowment.EndowmentApplication        :18   [32m                  [0;39m 地址:	http://127.0.0.1:8880
+2022-02-12 16:29:44.938 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-12 16:29:44.939 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-02-12 16:29:44.940 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2022-02-12 16:29:45.024 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2022-02-12 16:29:45.288 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2022-02-12 16:33:41.395 INFO  com.example.endowment.EndowmentApplicationTests   :55   [32m                  [0;39m Starting EndowmentApplicationTests using Java 1.8.0_221 on LAPTOP-054H6FO4 with PID 3160 (started by TR in E:\endowment)
+2022-02-12 16:33:41.395 INFO  com.example.endowment.EndowmentApplicationTests   :637  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-12 16:33:45.986 INFO  com.example.endowment.EndowmentApplicationTests   :61   [32m                  [0;39m Started EndowmentApplicationTests in 5.332 seconds (JVM running for 7.398)
+2022-02-12 16:33:51.685 INFO  com.example.endowment.EndowmentApplication        :55   [32m                  [0;39m Starting EndowmentApplication using Java 1.8.0_221 on LAPTOP-054H6FO4 with PID 11292 (E:\endowment\target\classes started by TR in E:\endowment)
+2022-02-12 16:33:51.685 INFO  com.example.endowment.EndowmentApplication        :637  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-12 16:33:51.805 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-12 16:33:51.805 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-12 16:33:53.586 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-02-12 16:33:53.596 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-02-12 16:33:53.596 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-02-12 16:33:53.596 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-12 16:33:53.716 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-02-12 16:33:53.716 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1911 ms
+2022-02-12 16:33:54.856 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-02-12 16:33:54.886 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-02-12 16:33:54.916 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-02-12 16:33:54.936 INFO  com.example.endowment.EndowmentApplication        :61   [32m                  [0;39m Started EndowmentApplication in 4.021 seconds (JVM running for 5.692)
+2022-02-12 16:33:54.946 INFO  com.example.endowment.EndowmentApplication        :17   [32m                  [0;39m 启动成功！！
+2022-02-12 16:33:54.946 INFO  com.example.endowment.EndowmentApplication        :18   [32m                  [0;39m 地址:	http://127.0.0.1:8880
+2022-02-12 16:34:42.338 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-12 16:34:42.339 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-02-12 16:34:42.341 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2022-02-12 16:36:49.729 INFO  com.example.endowment.EndowmentApplicationTests   :55   [32m                  [0;39m Starting EndowmentApplicationTests using Java 1.8.0_221 on LAPTOP-054H6FO4 with PID 3996 (started by TR in E:\endowment)
+2022-02-12 16:36:49.739 INFO  com.example.endowment.EndowmentApplicationTests   :637  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-12 16:36:53.980 INFO  com.example.endowment.EndowmentApplicationTests   :61   [32m                  [0;39m Started EndowmentApplicationTests in 4.997 seconds (JVM running for 6.899)
+2022-02-12 16:36:59.816 INFO  com.example.endowment.EndowmentApplication        :55   [32m                  [0;39m Starting EndowmentApplication using Java 1.8.0_221 on LAPTOP-054H6FO4 with PID 7136 (E:\endowment\target\classes started by TR in E:\endowment)
+2022-02-12 16:36:59.816 INFO  com.example.endowment.EndowmentApplication        :637  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-12 16:36:59.916 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-12 16:36:59.916 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-12 16:37:01.647 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-02-12 16:37:01.657 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-02-12 16:37:01.657 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-02-12 16:37:01.657 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-12 16:37:01.777 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-02-12 16:37:01.787 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1871 ms
+2022-02-12 16:37:02.937 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-02-12 16:37:02.967 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-02-12 16:37:02.997 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-02-12 16:37:03.017 INFO  com.example.endowment.EndowmentApplication        :61   [32m                  [0;39m Started EndowmentApplication in 3.893 seconds (JVM running for 5.476)
+2022-02-12 16:37:03.017 INFO  com.example.endowment.EndowmentApplication        :17   [32m                  [0;39m 启动成功！！
+2022-02-12 16:37:03.017 INFO  com.example.endowment.EndowmentApplication        :18   [32m                  [0;39m 地址:	http://127.0.0.1:8880
+2022-02-12 16:37:43.746 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-12 16:37:43.746 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-02-12 16:37:43.749 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 2 ms
+2022-02-12 16:37:43.872 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2022-02-12 16:37:44.134 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2022-02-12 16:46:25.710 INFO  com.example.endowment.EndowmentApplicationTests   :55   [32m                  [0;39m Starting EndowmentApplicationTests using Java 1.8.0_221 on LAPTOP-054H6FO4 with PID 936 (started by TR in E:\endowment)
+2022-02-12 16:46:25.710 INFO  com.example.endowment.EndowmentApplicationTests   :637  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-12 16:46:30.022 INFO  com.example.endowment.EndowmentApplicationTests   :61   [32m                  [0;39m Started EndowmentApplicationTests in 5.093 seconds (JVM running for 6.986)
+2022-02-12 16:46:36.644 INFO  com.example.endowment.EndowmentApplication        :55   [32m                  [0;39m Starting EndowmentApplication using Java 1.8.0_221 on LAPTOP-054H6FO4 with PID 1396 (E:\endowment\target\classes started by TR in E:\endowment)
+2022-02-12 16:46:36.654 INFO  com.example.endowment.EndowmentApplication        :637  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-12 16:46:36.754 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-12 16:46:36.764 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-12 16:46:38.514 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-02-12 16:46:38.534 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-02-12 16:46:38.534 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-02-12 16:46:38.534 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-12 16:46:38.654 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-02-12 16:46:38.654 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1890 ms
+2022-02-12 16:46:39.805 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-02-12 16:46:39.835 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-02-12 16:46:39.865 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-02-12 16:46:39.885 INFO  com.example.endowment.EndowmentApplication        :61   [32m                  [0;39m Started EndowmentApplication in 3.941 seconds (JVM running for 5.933)
+2022-02-12 16:46:39.885 INFO  com.example.endowment.EndowmentApplication        :17   [32m                  [0;39m 启动成功！！
+2022-02-12 16:46:39.885 INFO  com.example.endowment.EndowmentApplication        :18   [32m                  [0;39m 地址:	http://127.0.0.1:8880
+2022-02-12 16:47:08.417 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-12 16:47:08.418 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-02-12 16:47:08.420 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 2 ms
+2022-02-12 16:47:08.516 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2022-02-12 16:47:08.792 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2022-02-12 16:52:16.108 INFO  com.example.endowment.EndowmentApplicationTests   :55   [32m                  [0;39m Starting EndowmentApplicationTests using Java 1.8.0_221 on LAPTOP-054H6FO4 with PID 8452 (started by TR in E:\endowment)
+2022-02-12 16:52:16.108 INFO  com.example.endowment.EndowmentApplicationTests   :637  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-12 16:52:20.369 INFO  com.example.endowment.EndowmentApplicationTests   :61   [32m                  [0;39m Started EndowmentApplicationTests in 5.009 seconds (JVM running for 6.897)
+2022-02-12 16:52:26.572 INFO  com.example.endowment.EndowmentApplication        :55   [32m                  [0;39m Starting EndowmentApplication using Java 1.8.0_221 on LAPTOP-054H6FO4 with PID 8088 (E:\endowment\target\classes started by TR in E:\endowment)
+2022-02-12 16:52:26.582 INFO  com.example.endowment.EndowmentApplication        :637  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-12 16:52:26.672 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-12 16:52:26.672 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-12 16:52:28.413 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-02-12 16:52:28.433 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-02-12 16:52:28.433 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-02-12 16:52:28.433 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-12 16:52:28.553 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-02-12 16:52:28.553 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1881 ms
+2022-02-12 16:52:29.713 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-02-12 16:52:29.743 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-02-12 16:52:29.773 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-02-12 16:52:29.793 INFO  com.example.endowment.EndowmentApplication        :61   [32m                  [0;39m Started EndowmentApplication in 3.907 seconds (JVM running for 5.881)
+2022-02-12 16:52:29.803 INFO  com.example.endowment.EndowmentApplication        :17   [32m                  [0;39m 启动成功！！
+2022-02-12 16:52:29.803 INFO  com.example.endowment.EndowmentApplication        :18   [32m                  [0;39m 地址:	http://127.0.0.1:8880
+2022-02-12 17:00:21.906 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-12 17:00:21.906 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-02-12 17:00:21.906 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2022-02-12 17:00:22.026 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2022-02-12 17:00:22.346 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2022-02-12 17:04:58.281 INFO  com.example.endowment.EndowmentApplicationTests   :55   [32m                  [0;39m Starting EndowmentApplicationTests using Java 1.8.0_221 on LAPTOP-054H6FO4 with PID 5260 (started by TR in E:\endowment)
+2022-02-12 17:04:58.281 INFO  com.example.endowment.EndowmentApplicationTests   :637  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-12 17:05:03.072 INFO  com.example.endowment.EndowmentApplicationTests   :61   [32m                  [0;39m Started EndowmentApplicationTests in 5.583 seconds (JVM running for 7.635)
+2022-02-12 17:05:09.443 INFO  com.example.endowment.EndowmentApplication        :55   [32m                  [0;39m Starting EndowmentApplication using Java 1.8.0_221 on LAPTOP-054H6FO4 with PID 6208 (E:\endowment\target\classes started by TR in E:\endowment)
+2022-02-12 17:05:09.443 INFO  com.example.endowment.EndowmentApplication        :637  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-12 17:05:09.543 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-12 17:05:09.543 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-12 17:05:11.424 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-02-12 17:05:11.444 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-02-12 17:05:11.444 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-02-12 17:05:11.444 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-12 17:05:11.584 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-02-12 17:05:11.584 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2031 ms
+2022-02-12 17:05:12.814 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-02-12 17:05:12.854 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-02-12 17:05:12.884 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-02-12 17:05:12.904 INFO  com.example.endowment.EndowmentApplication        :61   [32m                  [0;39m Started EndowmentApplication in 4.196 seconds (JVM running for 6.052)
+2022-02-12 17:05:12.914 INFO  com.example.endowment.EndowmentApplication        :17   [32m                  [0;39m 启动成功！！
+2022-02-12 17:05:12.914 INFO  com.example.endowment.EndowmentApplication        :18   [32m                  [0;39m 地址:	http://127.0.0.1:8880
+2022-02-12 17:06:02.686 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-12 17:06:02.686 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-02-12 17:06:02.686 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2022-02-12 17:06:02.814 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2022-02-12 17:06:03.110 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2022-02-12 17:14:12.294 INFO  com.example.endowment.EndowmentApplicationTests   :55   [32m                  [0;39m Starting EndowmentApplicationTests using Java 1.8.0_221 on LAPTOP-054H6FO4 with PID 972 (started by TR in E:\endowment)
+2022-02-12 17:14:12.294 INFO  com.example.endowment.EndowmentApplicationTests   :637  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-12 17:14:17.246 INFO  com.example.endowment.EndowmentApplicationTests   :61   [32m                  [0;39m Started EndowmentApplicationTests in 5.773 seconds (JVM running for 7.856)
+2022-02-12 17:14:23.841 INFO  com.example.endowment.EndowmentApplication        :55   [32m                  [0;39m Starting EndowmentApplication using Java 1.8.0_221 on LAPTOP-054H6FO4 with PID 220 (E:\endowment\target\classes started by TR in E:\endowment)
+2022-02-12 17:14:23.851 INFO  com.example.endowment.EndowmentApplication        :637  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-12 17:14:23.951 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-12 17:14:23.951 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-12 17:14:25.822 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-02-12 17:14:25.842 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-02-12 17:14:25.842 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-02-12 17:14:25.842 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-12 17:14:25.972 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-02-12 17:14:25.972 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2021 ms
+2022-02-12 17:14:27.222 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-02-12 17:14:27.252 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-02-12 17:14:27.282 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-02-12 17:14:27.302 INFO  com.example.endowment.EndowmentApplication        :61   [32m                  [0;39m Started EndowmentApplication in 4.199 seconds (JVM running for 6.163)
+2022-02-12 17:14:27.312 INFO  com.example.endowment.EndowmentApplication        :17   [32m                  [0;39m 启动成功！！
+2022-02-12 17:14:27.312 INFO  com.example.endowment.EndowmentApplication        :18   [32m                  [0;39m 地址:	http://127.0.0.1:8880
+2022-02-12 17:15:31.531 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-12 17:15:31.531 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-02-12 17:15:31.539 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 8 ms
+2022-02-12 17:15:31.659 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2022-02-12 17:15:31.956 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2022-02-12 17:20:02.675 INFO  com.example.endowment.EndowmentApplicationTests   :55   [32m                  [0;39m Starting EndowmentApplicationTests using Java 1.8.0_221 on LAPTOP-054H6FO4 with PID 636 (started by TR in E:\endowment)
+2022-02-12 17:20:02.685 INFO  com.example.endowment.EndowmentApplicationTests   :637  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-12 17:20:08.577 INFO  com.example.endowment.EndowmentApplicationTests   :61   [32m                  [0;39m Started EndowmentApplicationTests in 6.782 seconds (JVM running for 9.443)
+2022-02-12 17:20:15.746 INFO  com.example.endowment.EndowmentApplication        :55   [32m                  [0;39m Starting EndowmentApplication using Java 1.8.0_221 on LAPTOP-054H6FO4 with PID 2856 (E:\endowment\target\classes started by TR in E:\endowment)
+2022-02-12 17:20:15.746 INFO  com.example.endowment.EndowmentApplication        :637  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-12 17:20:15.866 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-12 17:20:15.866 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-12 17:20:18.217 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-02-12 17:20:18.237 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-02-12 17:20:18.237 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-02-12 17:20:18.237 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-12 17:20:18.377 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-02-12 17:20:18.377 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2511 ms
+2022-02-12 17:20:19.767 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-02-12 17:20:19.817 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-02-12 17:20:19.857 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-02-12 17:20:19.877 INFO  com.example.endowment.EndowmentApplication        :61   [32m                  [0;39m Started EndowmentApplication in 4.975 seconds (JVM running for 7.215)
+2022-02-12 17:20:19.887 INFO  com.example.endowment.EndowmentApplication        :17   [32m                  [0;39m 启动成功！！
+2022-02-12 17:20:19.887 INFO  com.example.endowment.EndowmentApplication        :18   [32m                  [0;39m 地址:	http://127.0.0.1:8880
+2022-02-12 17:20:53.639 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-12 17:20:53.639 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-02-12 17:20:53.639 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2022-02-12 17:20:53.775 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2022-02-12 17:20:54.083 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2022-02-12 20:22:59.498 INFO  com.example.endowment.EndowmentApplicationTests   :55   [32m                  [0;39m Starting EndowmentApplicationTests using Java 1.8.0_221 on LAPTOP-054H6FO4 with PID 5368 (started by TR in E:\endowment)
+2022-02-12 20:22:59.498 INFO  com.example.endowment.EndowmentApplicationTests   :637  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-12 20:23:06.010 INFO  com.example.endowment.EndowmentApplicationTests   :61   [32m                  [0;39m Started EndowmentApplicationTests in 7.392 seconds (JVM running for 9.884)
+2022-02-12 20:23:13.507 INFO  com.example.endowment.EndowmentApplication        :55   [32m                  [0;39m Starting EndowmentApplication using Java 1.8.0_221 on LAPTOP-054H6FO4 with PID 3720 (E:\endowment\target\classes started by TR in E:\endowment)
+2022-02-12 20:23:13.517 INFO  com.example.endowment.EndowmentApplication        :637  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-12 20:23:13.627 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-12 20:23:13.627 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-12 20:23:15.707 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-02-12 20:23:15.727 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-02-12 20:23:15.727 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-02-12 20:23:15.727 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-12 20:23:15.837 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-02-12 20:23:15.837 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2210 ms
+2022-02-12 20:23:17.038 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-02-12 20:23:17.078 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-02-12 20:23:17.118 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-02-12 20:23:17.148 INFO  com.example.endowment.EndowmentApplication        :61   [32m                  [0;39m Started EndowmentApplication in 4.533 seconds (JVM running for 6.874)
+2022-02-12 20:23:17.148 INFO  com.example.endowment.EndowmentApplication        :17   [32m                  [0;39m 启动成功！！
+2022-02-12 20:23:17.148 INFO  com.example.endowment.EndowmentApplication        :18   [32m                  [0;39m 地址:	http://127.0.0.1:8880
+2022-02-12 20:23:28.959 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-12 20:23:28.959 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-02-12 20:23:28.959 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2022-02-12 20:23:29.096 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2022-02-12 20:23:29.375 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2022-02-12 20:26:53.044 INFO  com.example.endowment.EndowmentApplicationTests   :55   [32m                  [0;39m Starting EndowmentApplicationTests using Java 1.8.0_221 on LAPTOP-054H6FO4 with PID 4340 (started by TR in E:\endowment)
+2022-02-12 20:26:53.054 INFO  com.example.endowment.EndowmentApplicationTests   :637  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-12 20:26:57.356 INFO  com.example.endowment.EndowmentApplicationTests   :61   [32m                  [0;39m Started EndowmentApplicationTests in 5.0 seconds (JVM running for 6.81)
+2022-02-12 20:27:04.258 INFO  com.example.endowment.EndowmentApplication        :55   [32m                  [0;39m Starting EndowmentApplication using Java 1.8.0_221 on LAPTOP-054H6FO4 with PID 8580 (E:\endowment\target\classes started by TR in E:\endowment)
+2022-02-12 20:27:04.258 INFO  com.example.endowment.EndowmentApplication        :637  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-12 20:27:04.419 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-12 20:27:04.419 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-12 20:27:06.239 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-02-12 20:27:06.249 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-02-12 20:27:06.249 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-02-12 20:27:06.249 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-12 20:27:06.349 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-02-12 20:27:06.349 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1930 ms
+2022-02-12 20:27:07.389 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-02-12 20:27:07.419 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-02-12 20:27:07.449 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-02-12 20:27:07.469 INFO  com.example.endowment.EndowmentApplication        :61   [32m                  [0;39m Started EndowmentApplication in 4.729 seconds (JVM running for 6.867)
+2022-02-12 20:27:07.469 INFO  com.example.endowment.EndowmentApplication        :17   [32m                  [0;39m 启动成功！！
+2022-02-12 20:27:07.469 INFO  com.example.endowment.EndowmentApplication        :18   [32m                  [0;39m 地址:	http://127.0.0.1:8880
+2022-02-12 20:27:47.280 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-12 20:27:47.288 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-02-12 20:27:47.288 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2022-02-12 20:27:47.416 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2022-02-12 20:27:47.664 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2022-02-12 20:32:23.949 INFO  com.example.endowment.EndowmentApplicationTests   :55   [32m                  [0;39m Starting EndowmentApplicationTests using Java 1.8.0_221 on LAPTOP-054H6FO4 with PID 10532 (started by TR in E:\endowment)
+2022-02-12 20:32:23.959 INFO  com.example.endowment.EndowmentApplicationTests   :637  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-12 20:32:28.650 INFO  com.example.endowment.EndowmentApplicationTests   :61   [32m                  [0;39m Started EndowmentApplicationTests in 5.529 seconds (JVM running for 9.724)
+2022-02-12 20:32:34.597 INFO  com.example.endowment.EndowmentApplication        :55   [32m                  [0;39m Starting EndowmentApplication using Java 1.8.0_221 on LAPTOP-054H6FO4 with PID 5292 (E:\endowment\target\classes started by TR in E:\endowment)
+2022-02-12 20:32:34.607 INFO  com.example.endowment.EndowmentApplication        :637  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-12 20:32:34.687 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-12 20:32:34.687 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-12 20:32:36.758 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-02-12 20:32:36.778 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-02-12 20:32:36.778 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-02-12 20:32:36.778 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-12 20:32:36.908 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-02-12 20:32:36.908 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2211 ms
+2022-02-12 20:32:38.068 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-02-12 20:32:38.098 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-02-12 20:32:38.128 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-02-12 20:32:38.148 INFO  com.example.endowment.EndowmentApplication        :61   [32m                  [0;39m Started EndowmentApplication in 4.249 seconds (JVM running for 6.19)
+2022-02-12 20:32:38.158 INFO  com.example.endowment.EndowmentApplication        :17   [32m                  [0;39m 启动成功！！
+2022-02-12 20:32:38.158 INFO  com.example.endowment.EndowmentApplication        :18   [32m                  [0;39m 地址:	http://127.0.0.1:8880
+2022-02-12 20:33:09.381 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-12 20:33:09.381 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-02-12 20:33:09.381 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2022-02-12 20:33:09.509 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2022-02-12 20:33:09.781 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2022-02-12 20:39:11.017 INFO  com.example.endowment.EndowmentApplicationTests   :55   [32m                  [0;39m Starting EndowmentApplicationTests using Java 1.8.0_221 on LAPTOP-054H6FO4 with PID 9040 (started by TR in E:\endowment)
+2022-02-12 20:39:11.017 INFO  com.example.endowment.EndowmentApplicationTests   :637  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-12 20:39:15.398 INFO  com.example.endowment.EndowmentApplicationTests   :61   [32m                  [0;39m Started EndowmentApplicationTests in 5.067 seconds (JVM running for 6.915)
+2022-02-12 20:39:21.052 INFO  com.example.endowment.EndowmentApplication        :55   [32m                  [0;39m Starting EndowmentApplication using Java 1.8.0_221 on LAPTOP-054H6FO4 with PID 6124 (E:\endowment\target\classes started by TR in E:\endowment)
+2022-02-12 20:39:21.052 INFO  com.example.endowment.EndowmentApplication        :637  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-12 20:39:21.132 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-12 20:39:21.132 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-12 20:39:22.862 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-02-12 20:39:22.882 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-02-12 20:39:22.882 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-02-12 20:39:22.882 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-12 20:39:22.982 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-02-12 20:39:22.992 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1860 ms
+2022-02-12 20:39:24.022 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-02-12 20:39:24.052 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-02-12 20:39:24.082 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-02-12 20:39:24.102 INFO  com.example.endowment.EndowmentApplication        :61   [32m                  [0;39m Started EndowmentApplication in 3.667 seconds (JVM running for 5.488)
+2022-02-12 20:39:24.102 INFO  com.example.endowment.EndowmentApplication        :17   [32m                  [0;39m 启动成功！！
+2022-02-12 20:39:24.102 INFO  com.example.endowment.EndowmentApplication        :18   [32m                  [0;39m 地址:	http://127.0.0.1:8880
+2022-02-12 20:39:41.185 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-12 20:39:41.185 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-02-12 20:39:41.195 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2022-02-12 20:39:41.285 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2022-02-12 20:39:41.585 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2022-02-12 20:42:23.355 INFO  com.example.endowment.EndowmentApplicationTests   :55   [32m                  [0;39m Starting EndowmentApplicationTests using Java 1.8.0_221 on LAPTOP-054H6FO4 with PID 10420 (started by TR in E:\endowment)
+2022-02-12 20:42:23.365 INFO  com.example.endowment.EndowmentApplicationTests   :637  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-12 20:42:30.367 INFO  com.example.endowment.EndowmentApplicationTests   :61   [32m                  [0;39m Started EndowmentApplicationTests in 8.743 seconds (JVM running for 10.653)
+2022-02-12 20:42:39.802 INFO  com.example.endowment.EndowmentApplication        :55   [32m                  [0;39m Starting EndowmentApplication using Java 1.8.0_221 on LAPTOP-054H6FO4 with PID 6756 (E:\endowment\target\classes started by TR in E:\endowment)
+2022-02-12 20:42:39.802 INFO  com.example.endowment.EndowmentApplication        :637  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-12 20:42:39.892 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-12 20:42:39.892 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-12 20:42:41.682 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-02-12 20:42:41.692 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-02-12 20:42:41.692 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-02-12 20:42:41.702 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-12 20:42:41.812 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-02-12 20:42:41.812 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1920 ms
+2022-02-12 20:42:43.072 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-02-12 20:42:43.102 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-02-12 20:42:43.122 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-02-12 20:42:43.142 INFO  com.example.endowment.EndowmentApplication        :61   [32m                  [0;39m Started EndowmentApplication in 4.211 seconds (JVM running for 6.203)
+2022-02-12 20:42:43.142 INFO  com.example.endowment.EndowmentApplication        :17   [32m                  [0;39m 启动成功！！
+2022-02-12 20:42:43.152 INFO  com.example.endowment.EndowmentApplication        :18   [32m                  [0;39m 地址:	http://127.0.0.1:8880
+2022-02-12 20:44:19.412 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-12 20:44:19.412 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-02-12 20:44:19.412 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2022-02-12 20:44:19.540 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2022-02-12 20:44:19.804 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.

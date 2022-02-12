@@ -5,7 +5,7 @@ public class CommonResp<T> {
     /**
      * 业务上的成功或失败
      */
-    private boolean success = true;
+    private int code = 20000;
 
     /**
      * 返回信息
@@ -15,14 +15,14 @@ public class CommonResp<T> {
     /**
      * 返回泛型数据，自定义类型
      */
-    private T content;
+    private T data;
 
-    public boolean getSuccess() {
-        return success;
+    public int getCode() {
+        return code;
     }
 
-    public void setSuccess(boolean success) {
-        this.success = success;
+    public void setCode(int code) {
+        this.code = code;
     }
 
     public String getMessage() {
@@ -33,21 +33,20 @@ public class CommonResp<T> {
         this.message = message;
     }
 
-    public T getContent() {
-        return content;
+    public T getData() {
+        return data;
     }
 
-    public void setContent(T content) {
-        this.content = content;
+    public void setData(T data) {
+        this.data = data;
     }
 
     @Override
     public String toString() {
-        final StringBuffer sb = new StringBuffer("ResponseDto{");
-        sb.append("success=").append(success);
-        sb.append(", message='").append(message).append('\'');
-        sb.append(", content=").append(content);
-        sb.append('}');
-        return sb.toString();
+        return "CommonResp{" +
+                "code=" + code +
+                ", message='" + message + '\'' +
+                ", data=" + data +
+                '}';
     }
 }

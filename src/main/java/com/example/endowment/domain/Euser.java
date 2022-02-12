@@ -11,11 +11,11 @@ public class Euser {
 
     private String account;
 
-    private Boolean disability;
+    private String disability;
 
-    private Boolean familyplanning;
+    private String familyplanning;
 
-    private Boolean poverty;
+    private String poverty;
 
     public Long getId() {
         return id;
@@ -57,27 +57,27 @@ public class Euser {
         this.account = account;
     }
 
-    public Boolean getDisability() {
+    public String getDisability() {
         return disability;
     }
 
-    public void setDisability(Boolean disability) {
+    public void setDisability(String disability) {
         this.disability = disability;
     }
 
-    public Boolean getFamilyplanning() {
+    public String getFamilyplanning() {
         return familyplanning;
     }
 
-    public void setFamilyplanning(Boolean familyplanning) {
+    public void setFamilyplanning(String familyplanning) {
         this.familyplanning = familyplanning;
     }
 
-    public Boolean getPoverty() {
+    public String getPoverty() {
         return poverty;
     }
 
-    public void setPoverty(Boolean poverty) {
+    public void setPoverty(String poverty) {
         this.poverty = poverty;
     }
 

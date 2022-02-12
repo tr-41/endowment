@@ -12,11 +12,11 @@ create table `euser`(
     `idNumber` varchar(200) comment '身份证号',
     `address` varchar(200) comment '参保地',
     `account` varchar(200) comment '保费账户',
-    `disability` bit comment '是否残疾',
-    `familyPlanning` bit comment '是否计生困难人员',
-    `poverty` bit comment '是否贫困人员',
+    `disability` varchar(50) comment '是否残疾',
+    `familyPlanning` varchar(50) comment '是否计生困难人员',
+    `poverty` varchar(50) comment '是否贫困人员',
     primary key(`id`)
 ) engine=innodb default charset=utf8mb4 comment='参保人员';
 
-insert into `euser` (id, name, idNumber, address, account, disability, familyPlanning, poverty) values (1,'张三','120100195004010488','天津','1234567810121314151',0,0,0);
-insert into `euser` (id, name, idNumber, address, account, disability, familyPlanning, poverty) values (2,'李四','120100196004010488','天津','1234567810121314555',0,0,0);
+insert into `euser` (id, name, idNumber, address, account, disability, familyPlanning, poverty) values (1,'张三','120100195004010488','天津','1234567810121314151','no','no','no');
+insert into `euser` (id, name, idNumber, address, account, disability, familyPlanning, poverty) values (2,'李四','120100196004010488','天津','1234567810121314555','no','no','no');

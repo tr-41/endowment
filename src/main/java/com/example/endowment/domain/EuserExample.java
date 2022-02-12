@@ -454,52 +454,62 @@ public class EuserExample {
             return (Criteria) this;
         }
 
-        public Criteria andDisabilityEqualTo(Boolean value) {
+        public Criteria andDisabilityEqualTo(String value) {
             addCriterion("disability =", value, "disability");
             return (Criteria) this;
         }
 
-        public Criteria andDisabilityNotEqualTo(Boolean value) {
+        public Criteria andDisabilityNotEqualTo(String value) {
             addCriterion("disability <>", value, "disability");
             return (Criteria) this;
         }
 
-        public Criteria andDisabilityGreaterThan(Boolean value) {
+        public Criteria andDisabilityGreaterThan(String value) {
             addCriterion("disability >", value, "disability");
             return (Criteria) this;
         }
 
-        public Criteria andDisabilityGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andDisabilityGreaterThanOrEqualTo(String value) {
             addCriterion("disability >=", value, "disability");
             return (Criteria) this;
         }
 
-        public Criteria andDisabilityLessThan(Boolean value) {
+        public Criteria andDisabilityLessThan(String value) {
             addCriterion("disability <", value, "disability");
             return (Criteria) this;
         }
 
-        public Criteria andDisabilityLessThanOrEqualTo(Boolean value) {
+        public Criteria andDisabilityLessThanOrEqualTo(String value) {
             addCriterion("disability <=", value, "disability");
             return (Criteria) this;
         }
 
-        public Criteria andDisabilityIn(List<Boolean> values) {
+        public Criteria andDisabilityLike(String value) {
+            addCriterion("disability like", value, "disability");
+            return (Criteria) this;
+        }
+
+        public Criteria andDisabilityNotLike(String value) {
+            addCriterion("disability not like", value, "disability");
+            return (Criteria) this;
+        }
+
+        public Criteria andDisabilityIn(List<String> values) {
             addCriterion("disability in", values, "disability");
             return (Criteria) this;
         }
 
-        public Criteria andDisabilityNotIn(List<Boolean> values) {
+        public Criteria andDisabilityNotIn(List<String> values) {
             addCriterion("disability not in", values, "disability");
             return (Criteria) this;
         }
 
-        public Criteria andDisabilityBetween(Boolean value1, Boolean value2) {
+        public Criteria andDisabilityBetween(String value1, String value2) {
             addCriterion("disability between", value1, value2, "disability");
             return (Criteria) this;
         }
 
-        public Criteria andDisabilityNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andDisabilityNotBetween(String value1, String value2) {
             addCriterion("disability not between", value1, value2, "disability");
             return (Criteria) this;
         }
@@ -514,52 +524,62 @@ public class EuserExample {
             return (Criteria) this;
         }
 
-        public Criteria andFamilyplanningEqualTo(Boolean value) {
+        public Criteria andFamilyplanningEqualTo(String value) {
             addCriterion("familyPlanning =", value, "familyplanning");
             return (Criteria) this;
         }
 
-        public Criteria andFamilyplanningNotEqualTo(Boolean value) {
+        public Criteria andFamilyplanningNotEqualTo(String value) {
             addCriterion("familyPlanning <>", value, "familyplanning");
             return (Criteria) this;
         }
 
-        public Criteria andFamilyplanningGreaterThan(Boolean value) {
+        public Criteria andFamilyplanningGreaterThan(String value) {
             addCriterion("familyPlanning >", value, "familyplanning");
             return (Criteria) this;
         }
 
-        public Criteria andFamilyplanningGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andFamilyplanningGreaterThanOrEqualTo(String value) {
             addCriterion("familyPlanning >=", value, "familyplanning");
             return (Criteria) this;
         }
 
-        public Criteria andFamilyplanningLessThan(Boolean value) {
+        public Criteria andFamilyplanningLessThan(String value) {
             addCriterion("familyPlanning <", value, "familyplanning");
             return (Criteria) this;
         }
 
-        public Criteria andFamilyplanningLessThanOrEqualTo(Boolean value) {
+        public Criteria andFamilyplanningLessThanOrEqualTo(String value) {
             addCriterion("familyPlanning <=", value, "familyplanning");
             return (Criteria) this;
         }
 
-        public Criteria andFamilyplanningIn(List<Boolean> values) {
+        public Criteria andFamilyplanningLike(String value) {
+            addCriterion("familyPlanning like", value, "familyplanning");
+            return (Criteria) this;
+        }
+
+        public Criteria andFamilyplanningNotLike(String value) {
+            addCriterion("familyPlanning not like", value, "familyplanning");
+            return (Criteria) this;
+        }
+
+        public Criteria andFamilyplanningIn(List<String> values) {
             addCriterion("familyPlanning in", values, "familyplanning");
             return (Criteria) this;
         }
 
-        public Criteria andFamilyplanningNotIn(List<Boolean> values) {
+        public Criteria andFamilyplanningNotIn(List<String> values) {
             addCriterion("familyPlanning not in", values, "familyplanning");
             return (Criteria) this;
         }
 
-        public Criteria andFamilyplanningBetween(Boolean value1, Boolean value2) {
+        public Criteria andFamilyplanningBetween(String value1, String value2) {
             addCriterion("familyPlanning between", value1, value2, "familyplanning");
             return (Criteria) this;
         }
 
-        public Criteria andFamilyplanningNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andFamilyplanningNotBetween(String value1, String value2) {
             addCriterion("familyPlanning not between", value1, value2, "familyplanning");
             return (Criteria) this;
         }
@@ -574,52 +594,62 @@ public class EuserExample {
             return (Criteria) this;
         }
 
-        public Criteria andPovertyEqualTo(Boolean value) {
+        public Criteria andPovertyEqualTo(String value) {
             addCriterion("poverty =", value, "poverty");
             return (Criteria) this;
         }
 
-        public Criteria andPovertyNotEqualTo(Boolean value) {
+        public Criteria andPovertyNotEqualTo(String value) {
             addCriterion("poverty <>", value, "poverty");
             return (Criteria) this;
         }
 
-        public Criteria andPovertyGreaterThan(Boolean value) {
+        public Criteria andPovertyGreaterThan(String value) {
             addCriterion("poverty >", value, "poverty");
             return (Criteria) this;
         }
 
-        public Criteria andPovertyGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andPovertyGreaterThanOrEqualTo(String value) {
             addCriterion("poverty >=", value, "poverty");
             return (Criteria) this;
         }
 
-        public Criteria andPovertyLessThan(Boolean value) {
+        public Criteria andPovertyLessThan(String value) {
             addCriterion("poverty <", value, "poverty");
             return (Criteria) this;
         }
 
-        public Criteria andPovertyLessThanOrEqualTo(Boolean value) {
+        public Criteria andPovertyLessThanOrEqualTo(String value) {
             addCriterion("poverty <=", value, "poverty");
             return (Criteria) this;
         }
 
-        public Criteria andPovertyIn(List<Boolean> values) {
+        public Criteria andPovertyLike(String value) {
+            addCriterion("poverty like", value, "poverty");
+            return (Criteria) this;
+        }
+
+        public Criteria andPovertyNotLike(String value) {
+            addCriterion("poverty not like", value, "poverty");
+            return (Criteria) this;
+        }
+
+        public Criteria andPovertyIn(List<String> values) {
             addCriterion("poverty in", values, "poverty");
             return (Criteria) this;
         }
 
-        public Criteria andPovertyNotIn(List<Boolean> values) {
+        public Criteria andPovertyNotIn(List<String> values) {
             addCriterion("poverty not in", values, "poverty");
             return (Criteria) this;
         }
 
-        public Criteria andPovertyBetween(Boolean value1, Boolean value2) {
+        public Criteria andPovertyBetween(String value1, String value2) {
             addCriterion("poverty between", value1, value2, "poverty");
             return (Criteria) this;
         }
 
-        public Criteria andPovertyNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andPovertyNotBetween(String value1, String value2) {
             addCriterion("poverty not between", value1, value2, "poverty");
             return (Criteria) this;
         }

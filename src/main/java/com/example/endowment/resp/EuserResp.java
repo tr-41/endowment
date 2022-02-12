@@ -11,11 +11,11 @@ public class EuserResp {
 
     private String account;
 
-    private Boolean disability;
+    private String disability;
 
-    private Boolean familyplanning;
+    private String familyplanning;
 
-    private Boolean poverty;
+    private String poverty;
 
     public Long getId() {
         return id;
@@ -57,45 +57,41 @@ public class EuserResp {
         this.account = account;
     }
 
-    public Boolean getDisability() {
+    public String getDisability() {
         return disability;
     }
 
-    public void setDisability(Boolean disability) {
+    public void setDisability(String disability) {
         this.disability = disability;
     }
 
-    public Boolean getFamilyplanning() {
+    public String getFamilyplanning() {
         return familyplanning;
     }
 
-    public void setFamilyplanning(Boolean familyplanning) {
+    public void setFamilyplanning(String familyplanning) {
         this.familyplanning = familyplanning;
     }
 
-    public Boolean getPoverty() {
+    public String getPoverty() {
         return poverty;
     }
 
-    public void setPoverty(Boolean poverty) {
+    public void setPoverty(String poverty) {
         this.poverty = poverty;
     }
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append(getClass().getSimpleName());
-        sb.append(" [");
-        sb.append("Hash = ").append(hashCode());
-        sb.append(", id=").append(id);
-        sb.append(", name=").append(name);
-        sb.append(", idnumber=").append(idnumber);
-        sb.append(", address=").append(address);
-        sb.append(", account=").append(account);
-        sb.append(", disability=").append(disability);
-        sb.append(", familyplanning=").append(familyplanning);
-        sb.append(", poverty=").append(poverty);
-        sb.append("]");
-        return sb.toString();
+        return "EuserResp{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", idnumber='" + idnumber + '\'' +
+                ", address='" + address + '\'' +
+                ", account='" + account + '\'' +
+                ", disability='" + disability + '\'' +
+                ", familyplanning='" + familyplanning + '\'' +
+                ", poverty='" + poverty + '\'' +
+                '}';
     }
 }
