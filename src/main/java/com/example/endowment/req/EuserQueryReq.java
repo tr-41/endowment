@@ -1,6 +1,6 @@
 package com.example.endowment.req;
 
-public class EuserReq {
+public class EuserQueryReq {
     private Long id;
 
     private String name;
