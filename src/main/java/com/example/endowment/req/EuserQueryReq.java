@@ -1,6 +1,6 @@
 package com.example.endowment.req;
 
-public class EuserQueryReq {
+public class EuserQueryReq extends PageReq{
     private Long id;
 
     private String name;

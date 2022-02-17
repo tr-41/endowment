@@ -1,0 +1,67 @@
+2022-02-15 11:23:27.009 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌──->──┐
+|  com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration
+└──<-──┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2022-02-15 11:25:46.568 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌──->──┐
+|  com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration
+└──<-──┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2022-02-15 11:30:43.170 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    com.example.endowment.config.CorsConfig.addCorsMappings(CorsConfig.java:14)
+
+The following method did not exist:
+
+    org.springframework.web.servlet.config.annotation.CorsRegistration.allowedOriginPatterns([Ljava/lang/String;)Lorg/springframework/web/servlet/config/annotation/CorsRegistration;
+
+The method's class, org.springframework.web.servlet.config.annotation.CorsRegistration, is available from the following locations:
+
+    jar:file:/D:/tools/repository/org/springframework/spring-webmvc/5.2.15.RELEASE/spring-webmvc-5.2.15.RELEASE.jar!/org/springframework/web/servlet/config/annotation/CorsRegistration.class
+
+The class hierarchy was loaded from the following locations:
+
+    org.springframework.web.servlet.config.annotation.CorsRegistration: file:/D:/tools/repository/org/springframework/spring-webmvc/5.2.15.RELEASE/spring-webmvc-5.2.15.RELEASE.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of org.springframework.web.servlet.config.annotation.CorsRegistration
+

@@ -1,2 +1,2 @@
-GET http://localhost:8880/euser/list
+GET http://localhost:8880/euser/list?page=1&limit=1
 Accept: application/json
